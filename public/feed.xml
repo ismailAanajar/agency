@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TechAgency Blog</title>
+    <link>https://www.techagency.com/blog</link>
+    <description>Latest news and insights from TechAgency</description>
+    <language>en-us</language>
+    <atom:link href="https://www.techagency.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Future of AI in Web Development</title>
+      <link>https://www.techagency.com/blog/future-of-ai-in-web-development</link>
+      <pubDate>Wed, 15 Jun 2023 12:00:00 GMT</pubDate>
+      <guid>https://www.techagency.com/blog/future-of-ai-in-web-development</guid>
+      <description>Explore how artificial intelligence is shaping the future of web development and revolutionizing user experiences.</description>
+    </item>
+    <item>
+      <title>Cybersecurity Best Practices for Small Businesses</title>
+      <link>https://www.techagency.com/blog/cybersecurity-best-practices-for-small-businesses</link>
+      <pubDate>Sat, 10 Jun 2023 12:00:00 GMT</pubDate>
+      <guid>https://www.techagency.com/blog/cybersecurity-best-practices-for-small-businesses</guid>
+      <description>Learn essential cybersecurity measures to protect your small business from digital threats.</description>
+    </item>
+    <item>
+      <title>The Rise of Progressive Web Apps</title>
+      <link>https://www.techagency.com/blog/rise-of-progressive-web-apps</link>
+      <pubDate>Mon, 05 Jun 2023 12:00:00 GMT</pubDate>
+      <guid>https://www.techagency.com/blog/rise-of-progressive-web-apps</guid>
+      <description>Discover how progressive web apps are bridging the gap between web and mobile experiences.</description>
+    </item>
+  </channel>
+</rss>
+

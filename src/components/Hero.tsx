@@ -19,6 +19,7 @@ import {
 } from "lucide-react";
 import { TypeAnimation } from "react-type-animation";
 import Image from "next/image";
+import MorphingText from "./MorphingText";
 
 const techIcons = [Code, Cpu, Globe, Smartphone, Cloud, Lock];
 
@@ -71,26 +72,16 @@ export default function Hero() {
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
           >
             <motion.h1
-              className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary-foreground"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
+
+            // initial={{ opacity: 0, y: 20 }}
+            // animate={{ opacity: 1, y: 0 }}
+            // transition={{ duration: 0.5 }}
             >
-              <span className="block">Innovate.</span>{" "}
+              <span className="block text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary-foreground">
+                Innovate.
+              </span>{" "}
               <span className="block mt-2">
-                <TypeAnimation
-                  sequence={[
-                    "Create.",
-                    2000,
-                    "Elevate.",
-                    2000,
-                    "Transform.",
-                    2000,
-                  ]}
-                  wrapper="span"
-                  speed={50}
-                  repeat={Infinity}
-                />
+                <MorphingText texts={["Create.", "Elevate.", "Transform."]} />
               </span>
             </motion.h1>
           </motion.div>

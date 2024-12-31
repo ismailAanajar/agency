@@ -32,14 +32,7 @@ const services = [
       "Our expert team crafts responsive, scalable, and high-performance web applications using cutting-edge technologies like React, Next.js, and Node.js.",
     category: "development",
   },
-  {
-    icon: <Globe className="h-8 w-8" />,
-    title: "Digital Marketing",
-    description: "Boost your online presence and reach your target audience.",
-    details:
-      "We offer comprehensive digital marketing strategies including SEO, content marketing, social media management, and PPC campaigns to drive growth and engagement.",
-    category: "marketing",
-  },
+
   {
     icon: <Cpu className="h-8 w-8" />,
     title: "IT Consulting",
@@ -90,7 +83,7 @@ const services = [
 const categories = [
   "all",
   "development",
-  "marketing",
+
   "consulting",
   "infrastructure",
   "security",

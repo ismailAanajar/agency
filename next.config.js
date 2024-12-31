@@ -3,6 +3,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  images: {
+    domains: ["images.unsplash.com"],
+  },
   async headers() {
     return [
       {
